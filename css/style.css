@@ -58,6 +58,7 @@ header nav a:hover {
 }
 
 .section h1 {
+	color: #3498db;
 	transition: transform 1s;
 }
 
@@ -138,9 +139,11 @@ div {
 .cleaner {
 	clear: both;
 }
+
 #contact_section_help {
 	background: #bcd9ec;
 }
+
 .contact_form {
 	margin-top: 25px;
 	padding: 0;
@@ -173,7 +176,6 @@ div {
 	font-size: 12px;
 	margin-top: 15px;
 }
-
 .contact_form form textarea {
 	padding: 5px;
 	width: 270px;
@@ -235,4 +237,16 @@ input[type="submit" i] {
 	border-style: outset;
 	border-color: buttonborder;
 	border-image: initial;
+}
+
+.sol{
+	margin-top: 25px;
+	float: left;
+	margin-bottom: 25px;
+	text-align: left;
+}
+.sol p1
+{
+	font-weight: bold;
+	text-align: left;
 }

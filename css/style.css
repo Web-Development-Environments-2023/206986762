@@ -59,7 +59,7 @@ header nav a:hover {
 
 .section h1:hover {
 	/* transform: scale(1.2); */
-	transform: translate( 10px, -10px);
+	transform: translate(10px, -10px);
 	opacity: 50;
 	color: #174c5f;
 }
@@ -78,10 +78,7 @@ header nav a:hover {
 	transform: scale(1.1);
 }
 
-.gallery .desc
-{
-
-}
+/* .gallery .desc {} */
 
 .gallery img {
 	border: 1px solid #ccc;
@@ -110,9 +107,13 @@ p {
 }
 
 span {
-	/* color: red; */
+	font-size: 32px;
 }
 
-#fb_section .fb-like{
+#fb_section .fb-like {
+	margin: 20px;
+}
+
+#qrcoder img {
 	margin: 20px;
 }

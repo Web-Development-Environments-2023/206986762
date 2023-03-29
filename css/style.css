@@ -48,9 +48,13 @@ header nav a:hover {
 	color: white;
 }
 
-.section {
-	text-align: center;
+#about {
 	padding-top: 100px;
+}
+
+.section {
+	display: block;
+	text-align: center;
 }
 
 .section h1 {
@@ -84,11 +88,11 @@ header nav a:hover {
 	border: 1px solid #ccc;
 	box-shadow: 2px 2px 6px 0px rgba(23, 85, 199, 0.3);
 	max-width: 50%;
-	margin: 15px;
+	margin: 25px;
 }
 
 .youtube-embed {
-	padding-top: 100px;
+	padding-top: 25px;
 	display: inline-table;
 	margin: 5px;
 }
@@ -111,9 +115,124 @@ span {
 }
 
 #fb_section .fb-like {
-	margin: 20px;
+	margin: 25px;
 }
 
 #qrcoder img {
-	margin: 20px;
+	margin: 25px;
+}
+
+div {
+	display: block;
+}
+
+.h10 {
+	height: 5px;
+}
+
+.cleaner {
+	clear: both;
+	background-color: #3498db;
+}
+
+.cleaner {
+	clear: both;
+}
+#contact_section_help {
+	background: #bcd9ec;
+}
+.contact_form {
+	margin-top: 25px;
+	padding: 0;
+	width: 500px;
+	float: left;
+}
+
+.contact_form form {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.contact_form form label {
+	cursor: default;
+	display: block;
+	width: 100px;
+	margin: 10px;
+	font-size: 18px;
+	/* background-color: #a2ceeb; */
+}
+
+.contact_form form .input_field {
+	width: 270px;
+	padding: 5px;
+	color: black;
+	background: #a2ceeb;
+	border: 1px solid black;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.contact_form form textarea {
+	padding: 5px;
+	width: 270px;
+	height: 200px;
+	background: #a2ceeb;
+	border: 1px solid black;
+	color: black;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.contact_form form .submit_btn {
+	display: block;
+	padding: 5px 14px;
+	background: #a2ceeb;
+	border: 1px solid black;
+	color: black;
+	font-size: 14px;
+}
+
+.float_l {
+	float: left;
+}
+
+input[type="reset" i] {
+	appearance: auto;
+	user-select: none;
+	white-space: pre;
+	align-items: flex-start;
+	text-align: center;
+	cursor: default;
+	box-sizing: border-box;
+	background-color: buttonface;
+	color: buttontext;
+	padding: 1px 6px;
+	border-width: 2px;
+	border-style: outset;
+	border-color: buttonborder;
+	border-image: initial;
+}
+
+.float_r {
+	float: right;
+}
+
+input[type="submit" i] {
+	appearance: auto;
+	user-select: none;
+	white-space: pre;
+	align-items: flex-start;
+	text-align: center;
+	cursor: default;
+	box-sizing: border-box;
+	background-color: buttonface;
+	color: buttontext;
+	padding: 1px 6px;
+	border-width: 2px;
+	border-style: outset;
+	border-color: buttonborder;
+	border-image: initial;
 }
